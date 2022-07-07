@@ -24,4 +24,4 @@ mvn -v
 .\mvnw spring-boot:run
 ```
 
-运行成功后，访问即可http://localhost:8080/hello
+运行成功后，访问即可http://localhost:8080/greeting
