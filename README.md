@@ -24,4 +24,16 @@ mvn -v
 .\mvnw spring-boot:run
 ```
 
-运行成功后，访问即可http://localhost:8080/greeting
+运行成功后，访问即可http://localhost:8080/hello
+
+## 打包
+
+``` bash
+mvn package
+# mac/linux
+java -jar ./target/demo-0.0.1.jar
+# windos
+java -jar .\target\demo-0.0.1.jar
+```
+
+运行成功后，访问即可http://localhost:8080/hello
